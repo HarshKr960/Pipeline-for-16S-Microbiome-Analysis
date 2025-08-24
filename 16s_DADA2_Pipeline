@@ -14,7 +14,7 @@ library(ampvis2)
 #------------------------------
 # Input files
 #------------------------------
-path <- "D:/work/OmicsLogic_Workshop/OmisLogic_16s_datasets/"
+path <- "D:/work/16s_datasets/"
 fnFs <- sort(list.files(path, pattern="_R1_001.fastq.gz", full.names = TRUE))
 fnRs <- sort(list.files(path, pattern="_R2_001.fastq.gz", full.names = TRUE))
 sample.names <- sapply(strsplit(basename(fnFs), "_"), '[', 1)
