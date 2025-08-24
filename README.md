@@ -32,8 +32,8 @@ install.packages(c("tidyr","ggplot2","tidyverse","dplyr"))
 # remotes::install_github("ChiLiubio/file2meco")
 # install.packages("ampvis2")
 ```
-
-Data Layout
+---
+## Data Layout
 ```
 project/
 ├─ script.R                         # This pipeline script
@@ -44,14 +44,15 @@ project/
    ├─ SAMPLE1_R2_001.fastq.gz
    └─ ...
 ```
-
-Required metadata fields
+---
+## Required metadata fields
 
 - SampleID (must match FASTQ sample IDs)
 
 - Group (used for grouping/plots; rename or adjust in script if different)
 
-Usage
+---
+## Usage
 ```
 Set the input path at the top of the script:
 
@@ -64,7 +65,8 @@ Run the script in R or as a batch:
 
 Rscript script.R
 ```
-Outputs
+---
+## Outputs
 
 - denoising_stats.csv — read counts per sample across steps: input, filtered, denoisedF/R, merged, nonchim
 
@@ -77,8 +79,9 @@ In-session objects:
 - ps — phyloseq object with counts, taxonomy, and metadata
 
 - ps.relative_abundance.all.tsv — wide table of relative abundances with taxonomy columns
+---
 
-Plots Generated (examples)
+## Plots Generated (examples)
 
 - Quality profiles: plotQualityProfile for a quick QC peek
 
