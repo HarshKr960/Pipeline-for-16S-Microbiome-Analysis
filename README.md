@@ -85,25 +85,26 @@ In-session objects:
 
 - Quality profiles: plotQualityProfile for a quick QC peek
 
-Composition:
+- Composition:
 
-- Kingdom-level stacked bars
+-- Kingdom-level stacked bars
 
-- Phylum-level stacked bars
+-- Phylum-level stacked bars
 
-- Top Genera (microeco):
+-- Top Genera (microeco):
 
-- Top-20 genus bar plot
+-- Top-20 genus bar plot
 
-Diversity:
+- Diversity:
 
-- Alpha diversity (Shannon, etc.)
+-- Alpha diversity (Shannon, etc.)
 
-- Beta diversity (Bray–Curtis) ordination
+-- Beta diversity (Bray–Curtis) ordination
 
-Customize themes/facets or add ggsave() calls where needed.
+- Customize themes/facets or add ggsave() calls where needed.
+---
 
-Customization Tips
+## Customization Tips
 
 - Truncation/quality thresholds: adjust truncLen, maxEE, truncQ in filterAndTrim()
 
@@ -113,7 +114,8 @@ Customization Tips
 
 - Taxonomy DB: swap the GTDB FASTA for SILVA/RDP if preferred (and adjust path)
 
-Troubleshooting
+---
+## Troubleshooting
 
 - No / few reads after filtering: relax truncLen or maxEE; verify read quality profiles
 
@@ -123,7 +125,8 @@ Troubleshooting
 
 - Sample name mismatches: FASTQ sample IDs must match SampleID in metadata.csv
 
-Citation
+---
+## Citation
 
 Please cite the tools you use (examples):
 
@@ -135,4 +138,4 @@ Please cite the tools you use (examples):
 
 - ampvis2
 
-GTDB (if using their taxonomy)
+- GTDB (if using their taxonomy)
