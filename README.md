@@ -87,13 +87,13 @@ In-session objects:
 
 - Composition:
 
--- Kingdom-level stacked bars
+  - Kingdom-level stacked bars
 
--- Phylum-level stacked bars
+  - Phylum-level stacked bars
 
--- Top Genera (microeco):
+  - Top Genera (microeco):
 
--- Top-20 genus bar plot
+  - Top-20 genus bar plot
 
 - Diversity:
 
