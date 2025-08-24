@@ -97,9 +97,9 @@ In-session objects:
 
 - Diversity:
 
--- Alpha diversity (Shannon, etc.)
+  - Alpha diversity (Shannon, etc.)
 
--- Beta diversity (Bray–Curtis) ordination
+  - Beta diversity (Bray–Curtis) ordination
 
 - Customize themes/facets or add ggsave() calls where needed.
 ---
